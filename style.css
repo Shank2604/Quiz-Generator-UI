@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(192, 188, 188);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    width: 40vw;
+    height: 80vh;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.main>h2{
+    text-align: center;
+}
+
+.box-1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 38.5vw;
+    padding: 20px 30px;
+}
+
+.box-2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 38.5vw;
+    padding: 20px 30px;
+}
+
+.main>.btn-1{
+    padding: 12px;
+    position: relative;
+    left: 15vw;
+    background-color: white;
+    font-weight: 900;
+    color: black;
+}
+
+.box-3{
+    position: relative;
+    left: 10vw;
+    gap: 20px;
+    width: 38.5vw;
+}
+
+.box-3>.btn-2{
+    padding: 12px;
+    background-color: white;
+    font-weight: 900;
+    color: black;
+}
